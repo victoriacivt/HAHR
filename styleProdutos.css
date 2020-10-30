@@ -1,0 +1,136 @@
+
+
+.menu-horizontal {
+    position: absolute;
+    margin: auto;
+    width: 1198px;
+    background-color: #eee;
+    border: 1px solid #333;
+}
+.header{
+    background-color: #021C84;
+    height: 300px;
+}
+.logo{
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    position: relative;
+    top: 60px;
+}
+.box {
+    display: block;
+    border: 1px solid #021C84;
+    position: absolute;
+    top: 300px;
+    height:906px;
+    width:1198px;
+}
+.main {
+    width: 800px;
+    background-color: #eee;
+    position: static;
+    top: 400px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+a:hover {
+    color: #eee;
+}
+li {
+    display: inline-block;
+    border: 1px solid #333;
+    height: 100%;
+    line-height: 45px;
+    cursor: pointer;
+    margin-left: -6px;
+    width: 100px;
+    transition: 1s;
+}
+.tudo {
+    width: 1200px;
+    height:1200px;
+    margin: auto;
+    box-shadow: 7px 22px 66px -10px #000A4B;
+}
+
+.conteiner{
+    display: flex;
+    background-color: #7BA9D4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+    width: 1155px;
+    height: 200px; 
+    margin-left: 15px;
+    box-shadow: 10px 9px 0px -1px #000A4B;
+}
+.but{
+    height: 175px;
+    width: 150px;
+
+}
+
+.fundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000080;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.descricao{
+    background-color: #7BA9D4;
+    width: 655px;
+    height: 200px;
+    text-align: center;
+    
+}
+
+.comprar{
+    width: 300px;
+    height: 100%;
+    background-color: #021C84;
+}
+
+.quant{
+    height: 50px;
+    width: 150px;
+    background-color: #7BA9D4; 
+    color: black;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    margin-left: 25px;
+}
+.botao{
+    height: 50px;
+    width: 75px;
+    background-color:  #7BA9D4; 
+    color: black;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+.botao:hover {
+    background-color: #000080; 
+    color: white;
+}
+
+.preco{
+    color: #eee;
+    font-size: 35pt;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

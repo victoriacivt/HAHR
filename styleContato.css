@@ -1,0 +1,77 @@
+
+
+.menu-horizontal {
+    position: absolute;
+    margin: auto;
+    width: 1198px;
+    background-color: #eee;
+    border: 1px solid #333;
+}
+.header{
+    background-color: #021C84;
+    height: 300px;
+}
+.logo{
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    position: relative;
+    top: 60px;
+}
+.box {
+    display: block;
+    border: 1px solid #021C84;
+    position: absolute;
+    top: 300px;
+    height:906px;
+    width:1198px;
+}
+.main {
+    width: 800px;
+    background-color: #eee;
+    position: static;
+    top: 400px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+a:hover {
+    color: #eee;
+}
+li {
+    display: inline-block;
+    border: 1px solid #333;
+    height: 100%;
+    line-height: 45px;
+    cursor: pointer;
+    margin-left: -6px;
+    width: 100px;
+    transition: 1s;
+}
+.tudo {
+    width: 1200px;
+    height:1200px;
+    margin: auto;
+    box-shadow: 7px 22px 66px -10px #000A4B;
+}
+
+.facebook, .instagram, .twitter, .linkedin, .email, .telefone {
+	
+	height:50px;
+	width: 50px;
+	position: relative;
+	top: 10px;
+}
+
+	
+  
